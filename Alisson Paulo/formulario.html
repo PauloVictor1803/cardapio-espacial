@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-image: url(./img/fundo\ da\ pagina.jpg);
+            
+        }
+        button{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: darkred;
+            width: 95%;
+            border-radius: 10px;
+            color: white;
+            padding: 5px;
+        
+        }
+        button:hover {
+            background-color: rgb(92, 4, 4);
+            color: white;
+            border: 2px #1f1e1f;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cosmos Burger Formulario</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="nome">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="nome">Telefone</label>
+                </div>
+                <br><br>
+                <div class="center">
+                <p>Sexo:</p>
+                <br>
+                <input type="radio" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                
+                <input type="radio" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                
+                <input type="radio" name="genero" value="outro" required>
+                <label for="feminino">Outro</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <label for="nome">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data-nascimento" class="inputUser" required>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="nome">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="nome">Endereço</label>
+                </div>
+                <br>
+                <br><br>
+
+            </fieldset>
+            
+        </form>
+        <div class="botao">
+            <a href='siteindex.html'><button>Enviar</button></a>
+            </div>
+    </div>
+    
+</body>
+</html>
